@@ -112,7 +112,7 @@ const events = [
     description:
       "Students embark on an exhilarating hunt across Google and YouTube for captivating video clips, showcasing creativity and storytelling prowess in a thrilling competition.",
     banner:
-      "https://www.shutterstock.com/image-vector/sustainable-energy-word-cloud-260nw-53764555.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkC8WAQAfGvX5rep_llJ8K8KnaeZ1yYpaIOw&s",
     participants: 1,
     url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUNjQxS1pZWVdXSzJTRDJYQlZEM1FGQzI3QS4u",
   },
