@@ -92,7 +92,7 @@ const events = [
     description:
       "Get ready to animate the future of climate action! Participants create thrilling videos on climate change, exploring causes, impacts, and revolutionary solutions.",
     banner:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlI9obEIzcjU0nDbg-r28asdztvKV5w95dSg&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkeW_AwOm6RuF9TNrodSSGs3Jafv4j8p8PNA&s",
     participants: 2,
     url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUMUJENThBMjJJRUNDVDRSMTZSNTJRUDg5VS4u",
   },
