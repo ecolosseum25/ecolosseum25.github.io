@@ -41,14 +41,14 @@ function addCard(name, eligibility, description, banner, participants, url) {
 
   // Event listener for hovering over the card
   card.addEventListener("mouseenter", function () {
-    card.classList.add("hover:scale-102"); // Apply Tailwind CSS's responsive hover class
+    card.classList.add("hover:scale-100"); // Apply Tailwind CSS's responsive hover class
     card.querySelector(".description").classList.add("block"); // Show description
     card.querySelector(".register").classList.add("block"); // Show registration link
   });
 
   // Event listener for moving the mouse out of the card
   card.addEventListener("mouseleave", function () {
-    card.classList.remove("hover:scale-105"); // Remove scaling effect
+    card.classList.remove("hover:scale-100"); // Remove scaling effect
     card.querySelector(".description").classList.remove("block"); // Hide description
     card.querySelector(".register").classList.remove("block"); // Hide registration link
   });
