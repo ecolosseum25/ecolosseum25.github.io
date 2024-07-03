@@ -230,5 +230,3 @@ main.addEventListener("mouseout", function(event) {
     card.querySelector(".register").style.display = "none";
   }
 });
-
-
