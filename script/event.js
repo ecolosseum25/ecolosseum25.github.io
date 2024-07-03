@@ -21,10 +21,10 @@ function addCard(name, eligibility, description, banner, participants, url) {
     <h1 class="title-font text-lg font-medium text-gray-300 mb-3">
       ${name}
     </h1>
-    <p class="leading-relaxed mb-3 text-gray-400" style="display: none" id="description">
+    <p class="leading-relaxed mb-3 text-gray-400 description" style="display: none">
       ${description}
     </p>
-    <div class="flex items-center flex-wrap" style="display: none" id="register">
+    <div class="flex items-center flex-wrap register" style="display: none">
       <a
         class="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0"
         >Register Now
@@ -215,18 +215,20 @@ events.forEach((event) => {
     event.url
   );
 });
+const cards = document.getElementsByClassName("card");
 
-const card1 = document.getElementsByClassName("card")
-for(let i = 0; i < card1.length; i++) {
- card1[i].addEventListener("mouseover", mouseOver)
- card1[i].addEventListener("mouseout", mouseOut)}
+for (let i = 0; i < cards.length; i++) {
+  cards[i].addEventListener("mouseover", mouseOver);
+  cards[i].addEventListener("mouseout", mouseOut);
+}
 
 function mouseOver() {
-  document.getElementById("description").style.display = "block";
-  document.getElementById("register").style.display = "block";
+  this.querySelector(".description").style.display = "block";
+  this.querySelector(".register").style.display = "flex"; // Assuming register should be displayed as flex
 }
 
 function mouseOut() {
-  document.getElementById("description").style.display = "none";
-  document.getElementById("register").style.display = "none";
+  this.querySelector(".description").style.display = "none";
+  this.querySelector(".register").style.display = "none";
 }
+
