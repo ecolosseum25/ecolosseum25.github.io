@@ -2,7 +2,7 @@ const main = document.getElementsByClassName("main")[0];
 
 function addCard(name, eligibility, description, banner, participants, url) {
   const carder = document.createElement("div");
-  carder.classList.add("p-4", "md:w-1/3", "card", "overflow-hidden");
+  carder.classList.add("p-4", "md:w-1/3", "carder", "overflow-hidden");
 
   carder.innerHTML = `
     <div class="card border-2 border-white border-opacity-60 rounded-lg">
