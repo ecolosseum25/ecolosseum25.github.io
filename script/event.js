@@ -41,17 +41,14 @@ function addCard(name, eligibility, description, banner, participants, url) {
 
   // Event listener for mouseover to show description and registration link
   card.addEventListener("mouseover", function () {
-    card.querySelector(".description").style.display = "block";
-    card.querySelector(".register").style.display = "flex";
+    card.classList.add("card-hover");
   });
 
   // Event listener for mouseout to hide description and registration link
   card.addEventListener("mouseout", function () {
-    card.querySelector(".description").style.display = "none";
-    card.querySelector(".register").style.display = "none";
+    card.classList.remove("card-hover");
   });
 }
-
 
 const events = [
  {
