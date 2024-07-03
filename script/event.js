@@ -41,45 +41,6 @@ function addCard(name, eligibility, description, banner, participants, url) {
 
   main.appendChild(card);
 }
-
-const events = [
-  {
-    name: "Tech Attire",
-    eligibility: [2, 3],
-    description: "Participants craft costumes inspired by e-waste, merging creativity with tech, judged on innovation and thematic relevance to electronic waste.",
-    banner: "https://img.freepik.com/premium-photo/people-cyber-reality_622301-1398.jpg",
-    participants: 1,
-    url: "https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUOTVYTFQ0NTlDQVQyOVVZMTdYV1UyUE1BUy4u"
-  },
-  {
-    name: "DOCUDRAMA",
-    eligibility: [4, 5],
-    description: "Unleash your creativity! Join our film making competition and let your story shine.",
-    banner: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlI9obEIzcjU0nDbg-r28asdztvKV5w95dSg&usqp=CAU",
-    participants: 2,
-    url: "https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRURFpGWDZHUlNaWksxTTA1OE42SkVEQlVBNS4u"
-  },
-  {
-    name: "CodeCraftGaming",
-    eligibility: [6, 8],
-    description: "Competitors develop arcade games envisioning sustainable cities, blending creativity with future-forward environmental solutions.",
-    banner: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frockymountevents.com%2Fwp-content%2Fuploads%2F2019%2F11%2FPerson-playing-an-arcade-game.jpg&f=1&nofb=1&ipt=8b1500372364ff77de787dc2b43555a66c9ead59c5ec12b13cb07cff4eb15330&ipo=images",
-    participants: 2,
-    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUMUJENThBMjJJRUNDVDRSMTZSNTJRUDg5VS4u"
-  },
-];
-
-events.forEach((event) => {
-  addCard(
-    event.name,
-    event.eligibility,
-    event.description,
-    event.banner,
-    event.participants,
-    event.url
-  );
-});
-
 const events = [
  {
     name: "Tech Attire",
