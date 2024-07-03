@@ -21,8 +21,8 @@ function addCard(name, eligibility, description, banner, participants, url) {
     <h1 class="title-font text-lg font-medium text-gray-300 mb-3">
       ${name}
     </h1>
-    <table>
-    <tbody style="display:none;">
+    <table class="Socool">
+    <tbody>
     <p class="leading-relaxed mb-3 text-gray-400">
       ${description}
     </p>
