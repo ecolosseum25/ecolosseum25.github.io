@@ -1,3 +1,4 @@
+/* Tailwind CSS classes */
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Fira+Mono:400");
 
@@ -37,9 +38,11 @@ body::-webkit-scrollbar-thumb:hover {
   color: #fff;
   text-shadow: 0 0 2rem #ffffff;
 }
+
 a.tab {
   transition: 0.1s ease-in-out;
 }
+
 a.tab:hover {
   border-bottom: 0.1rem solid #fff;
 }
@@ -55,6 +58,7 @@ a.tab:hover {
   transition: 0.2s ease;
   color: #000 !important;
 }
+
 .marine:hover {
   background-color: #7e2add;
   box-shadow: 0 0 2rem #94f5f5;
@@ -75,11 +79,13 @@ a.tab:hover {
   outline: none;
   border: none;
   box-shadow: 0.2rem 0.2rem 0.5rem #202020;
+  transition: transform 0.3s ease-out; /* Added transition for smooth scaling */
 }
 
 .card:hover {
-  box-shadow: 0 0 0.5rem #953df8;
+  transform: scale(1.05); /* Scale the hovered card */
 }
+
 #count {
   color: rgb(141,60,221);
   font-size: 7vw;
