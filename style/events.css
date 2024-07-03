@@ -76,7 +76,7 @@ a.tab:hover {
   justify-content: space-between;
   height: 100%;
   cursor: pointer;
-  outline: none;
+  outline: none !important;
   border: none;
   box-shadow: 0.2rem 0.2rem 0.5rem #202020;
   transition: transform 0.3s ease-out;
