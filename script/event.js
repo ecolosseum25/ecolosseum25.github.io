@@ -4,7 +4,7 @@ function addCard(name, eligibility, description, banner, participants, url) {
   const card = document.createElement("div");
   card.classList.add("p-4", "md:w-1/3", "card", "overflow-hidden");
 
-  card.innerHTML = `
+  card.innerHTML = 
     <div class="card-inner border-2 border-white border-opacity-60 rounded-lg">
       <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="${banner}" alt="banner" />
       <div class="p-6 flex flex-col justify-between">
@@ -37,31 +37,24 @@ function addCard(name, eligibility, description, banner, participants, url) {
         </div>
       </div>
     </div>
-  `;
+  ;
 
   main.appendChild(card);
 
   // Event listener for hovering over the card
   card.addEventListener("mouseenter", function () {
     card.classList.add("hover:scale-105"); // Apply Tailwind CSS's responsive hover class
-    card.querySelector(".description").classList.add("text-gray-300"); // Change description text color
-    card.querySelector(".register").classList.add("text-purple-600"); // Change register link text color
-    card.querySelector(".card-inner").classList.add("bg-black", "bg-opacity-80"); // Change card background and opacity
-    card.querySelector(".card-inner").classList.remove("border-opacity-60"); // Remove original border opacity
-    card.querySelector(".card-inner").classList.add("border-opacity-80"); // Add new border opacity
+    card.querySelector(".description").classList.add("block"); // Show description
+    card.querySelector(".register").classList.add("block"); // Show registration link
   });
 
   // Event listener for moving the mouse out of the card
   card.addEventListener("mouseleave", function () {
     card.classList.remove("hover:scale-105"); // Remove scaling effect
-    card.querySelector(".description").classList.remove("text-gray-300"); // Restore original description text color
-    card.querySelector(".register").classList.remove("text-purple-600"); // Restore original register link text color
-    card.querySelector(".card-inner").classList.remove("bg-black", "bg-opacity-80"); // Restore original card background and opacity
-    card.querySelector(".card-inner").classList.remove("border-opacity-80"); // Restore original border opacity
-    card.querySelector(".card-inner").classList.add("border-opacity-60"); // Restore original border opacity
+    card.querySelector(".description").classList.remove("block"); // Hide description
+    card.querySelector(".register").classList.remove("block"); // Hide registration link
   });
 }
-
 const events = [
  {
     name: "Tech Attire",
