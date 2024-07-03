@@ -216,7 +216,7 @@ events.forEach((event) => {
   );
 });
 
-document.getElementsByClassName("card").addEventListener("mouseover", mouseOver)
+document.getElementsByClassName("card")[0].addEventListener("mouseover", mouseOver)
 function mouseOver() {
   document.getElementById("description").style.display = "block";
 }
