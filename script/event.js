@@ -10,7 +10,7 @@ function addCard(name, eligibility, description, banner, participants, url) {
         GRADES: ${eligibility.join(" - ")}
       </h2>
       <h1 class="title-font text-lg font-medium text-gray-300 mb-3">${name}</h1>
-      <p class="leading-relaxed mb-3 text-gray-400 description" style=">${description}</p>
+      <p class="leading-relaxed mb-3 text-gray-400 description" style="display: none;">${description}</p>
       <div class="flex items-center flex-wrap register">
         <a class="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0" href="${url}" target="_blank" style="display: none;">
           Register Now
@@ -172,6 +172,7 @@ events.forEach((event) => {
     event.url
   );
 });
+// Event listener for mouseenter to show description and registration link
 main.addEventListener("mouseenter", function (event) {
   const card = event.target.closest(".card");
   if (card) {
@@ -180,6 +181,7 @@ main.addEventListener("mouseenter", function (event) {
   }
 });
 
+// Event listener for mouseleave to hide description and registration link
 main.addEventListener("mouseleave", function (event) {
   const card = event.target.closest(".card");
   if (card) {
