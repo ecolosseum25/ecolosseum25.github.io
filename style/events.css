@@ -94,10 +94,9 @@ a.tab:hover {
 }
 .description,
 .register {
-  display: none; /* Initially hide these elements */
+  display: none;
 }
 
-.description.show,
-.register.show {
-  display: block !important; /* Show elements when .show class is applied */
+.show {
+  display: block !important;
 }
