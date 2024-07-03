@@ -1,10 +1,10 @@
 const main = document.getElementsByClassName("main")[0];
 
 function addCard(name, eligibility, description, banner, participants, url) {
-  const card = document.createElement("div");
-  card.classList.add("p-4", "md:w-1/3", "card", "overflow-hidden");
+  const carder = document.createElement("div");
+  carder.classList.add("p-4", "md:w-1/3", "overflow-hidden");
 
-  card.innerHTML = `
+  carder.innerHTML = `
     <div class="card border-2 border-white border-opacity-60 rounded-lg">
       <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="${banner}" alt="banner" />
       <div class="p-6">
@@ -37,7 +37,7 @@ function addCard(name, eligibility, description, banner, participants, url) {
     </div>
     `;
 
-  main.appendChild(card);
+  main.appendChild(carder);
 
   // Event listener for hovering over the card
   card.addEventListener("mouseenter", function () {
