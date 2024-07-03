@@ -45,6 +45,14 @@ function addCard(name, eligibility, description, banner, participants, url) {
     card.querySelector(".register").style.display = "flex";
   });
 
+  // Event listener for mouseout to hide description and registration link
+  card.addEventListener("mouseout", function () {
+    card.querySelector(".description").style.display = "none";
+    card.querySelector(".register").style.display = "none";
+  });
+}
+
+
 const events = [
  {
     name: "Tech Attire",
