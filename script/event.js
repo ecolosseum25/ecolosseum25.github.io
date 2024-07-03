@@ -172,12 +172,11 @@ events.forEach((event) => {
     event.url
   );
 });
-// Event listener for mouseenter to show description and registration link
 main.addEventListener("mouseenter", function (event) {
   const card = event.target.closest(".card");
   if (card) {
     card.querySelector(".description").style.display = "block";
-    card.querySelector(".register a").style.display = "inline-flex";
+    card.querySelector(".register").style.display = "flex"; // Show the whole register div
   }
 });
 
@@ -186,6 +185,6 @@ main.addEventListener("mouseleave", function (event) {
   const card = event.target.closest(".card");
   if (card) {
     card.querySelector(".description").style.display = "none";
-    card.querySelector(".register a").style.display = "none";
+    card.querySelector(".register").style.display = "none"; // Hide the whole register div
   }
 });
