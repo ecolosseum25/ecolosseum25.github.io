@@ -218,10 +218,8 @@ events.forEach((event) => {
 
 const card1 = document.getElementsByClassName("card")
 
-for(let i = 0; card1 > i; i++) {
-  card1[i].addEventListener("mouseover", mouseOver)
-  card1[i].addEventListener("mouseout", mouseOut)
-}
+ card1[1].addEventListener("mouseover", mouseOver)
+  card1[1].addEventListener("mouseout", mouseOut)
 
 function mouseOver() {
   document.getElementById("description").style.display = "block";
