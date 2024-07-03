@@ -1,4 +1,4 @@
-if (window.location.href == "https://ecolosseum.github.io/invite") { window.location.href = "12" };
+if (window.location.href == "https://ecolosseum24.github.io/invite") { window.location.href = "https://www.canva.com/design/DAGFdoKOpWE/mWIB6SMaMepD6CBHYwTmrg/view?utm_content=DAGFdoKOpWE&utm_campaign=designshare&utm_medium=link&utm_source=editor" };
 
 var typed = new Typed("#typing", {
   strings: ["AGI", "Innovation", "Learning"],
