@@ -71,7 +71,6 @@ a.tab:hover {
   outline: none;
   border: none;
   box-shadow: 0.2rem 0.2rem 0.5rem #202020;
-  display: none;
 }
 
 .card:hover {
