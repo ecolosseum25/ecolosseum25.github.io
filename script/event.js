@@ -11,8 +11,8 @@ function addCard(name, eligibility, description, banner, participants, url) {
       </h2>
       <h1 class="title-font text-lg font-medium text-gray-300 mb-3">${name}</h1>
       <p class="leading-relaxed mb-3 text-gray-400 description" style="display: none;">${description}</p>
-      <div class="flex items-center flex-wrap register">
-        <a class="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0" href="${url}" target="_blank" style="display: none;">
+      <div class="flex items-center flex-wrap register" style="display: none;>
+        <a class="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0" href="${url}" target="_blank"">
           Register Now
           <svg
             class="w-4 h-4 ml-2"
@@ -172,7 +172,8 @@ events.forEach((event) => {
     event.url
   );
 });
-main.addEventListener("mouseenter", function (event) {
+// Event listener for mouseover to show description and registration link
+main.addEventListener("mouseover", function (event) {
   const card = event.target.closest(".card");
   if (card) {
     card.querySelector(".description").style.display = "block";
@@ -180,11 +181,12 @@ main.addEventListener("mouseenter", function (event) {
   }
 });
 
-// Event listener for mouseleave to hide description and registration link
-main.addEventListener("mouseleave", function (event) {
+// Event listener for mouseout to hide description and registration link
+main.addEventListener("mouseout", function (event) {
   const card = event.target.closest(".card");
   if (card) {
     card.querySelector(".description").style.display = "none";
     card.querySelector(".register").style.display = "none"; // Hide the whole register div
   }
 });
+
