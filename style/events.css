@@ -74,6 +74,11 @@ a.tab:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.card-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100%;
   cursor: pointer;
   outline: none;
@@ -81,8 +86,7 @@ a.tab:hover {
   box-shadow: 0.2rem 0.2rem 0.5rem #202020;
   transition: transform 0.3s ease-out;
 }
-
-.card:hover {
+.card-inner:hover {
   box-shadow: 0 0 0.5rem #953df8;
 }
 
