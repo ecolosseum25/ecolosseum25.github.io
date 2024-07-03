@@ -5,7 +5,7 @@ function addCard(name, eligibility, description, banner, participants, url) {
   card.classList.add("p-4", "md:w-1/3", "card", "overflow-hidden");
 
   card.innerHTML = `
-    <div class="card h-full border-2 border-white border-opacity-60 rounded-lg overflow-hidden">
+    <div class="card-inner h-full border-2 border-white border-opacity-60 rounded-lg">
       <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="${banner}" alt="banner" />
       <div class="p-6">
         <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
