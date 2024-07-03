@@ -41,7 +41,7 @@ function addCard(name, eligibility, description, banner, participants, url) {
 
   // Event listener for hovering over the card
   card.addEventListener("mouseenter", function () {
-    card.classList.add("hover:scale-105"); // Apply Tailwind CSS's responsive hover class
+    card.classList.add("hover:scale-102"); // Apply Tailwind CSS's responsive hover class
     card.querySelector(".description").classList.add("block"); // Show description
     card.querySelector(".register").classList.add("block"); // Show registration link
   });
