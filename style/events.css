@@ -76,14 +76,14 @@ a.tab:hover {
   justify-content: space-between;
   height: 100%;
   cursor: pointer;
-  outline: none !important;
+  outline: none;
   border: none;
   box-shadow: 0.2rem 0.2rem 0.5rem #202020;
   transition: transform 0.3s ease-out;
 }
 
 .card:hover {
-  transform: scale(1.05); 
+  box-shadow: 0 0 0.5rem #953df8;
 }
 
 #count {
@@ -96,4 +96,9 @@ a.tab:hover {
   user-select: none !important;
 }
 
-.description, register { display: none;}
+.background {
+  z-index: 5 !important;
+  background: transparent !important;
+}
+
+.description, register { display: none; }
