@@ -85,7 +85,9 @@ a.tab:hover {
   z-index: 1000 !important;
   user-select: none !important;
 }
-
+.Socool {
+  display: none;
+}
 .background {
   z-index: 5 !important;
   background: transparent !important;
