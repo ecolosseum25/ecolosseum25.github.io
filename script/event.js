@@ -2,39 +2,40 @@ const main = document.getElementsByClassName("main")[0];
 
 function addCard(name, eligibility, description, banner, participants, url) {
   const query = `
-<div class="p-4 md:w-1/3">
-  <div class="card h-full border-2 border-white border-opacity-60 rounded-lg overflow-hidden">
-    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="${banner}" alt="banner" />
-    <div class="p-6">
-      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-        GRADES: ${eligibility.join(" - ")}
-      </h2>
-      <h1 class="title-font text-lg font-medium text-gray-300 mb-3">${name}</h1>
-      <p class="leading-relaxed mb-3 text-gray-400 description" style="display: none;">${description}</p>
-      <div class="flex items-center flex-wrap register" style="display: none;>
-        <a class="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0" href="${url}" target="_blank"">
-          Register Now
-          <svg
-            class="w-4 h-4 ml-2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M5 12h14"></path>
-            <path d="M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
-        <span class="text-gray-400 inline-flex items-right lg:ml-auto md:ml-0 ml-auto leading-none text-sm py-1">
-          <i class="px-2 fa-regular fa-user"></i>${participants}
-        </span>
+    <div class="p-4 md:w-1/3">
+      <div class="card h-full border-2 border-white border-opacity-60 rounded-lg overflow-hidden">
+        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="${banner}" alt="banner" />
+        <div class="p-6">
+          <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+            GRADES: ${eligibility.join(" - ")}
+          </h2>
+          <h1 class="title-font text-lg font-medium text-gray-300 mb-3">${name}</h1>
+          <p class="leading-relaxed mb-3 text-gray-400 description" style="display: none;">${description}</p>
+          <div class="flex items-center flex-wrap register" style="display: none;">
+            <a class="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0" href="${url}" target="_blank">
+              Register Now
+              <svg
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <span class="text-gray-400 inline-flex items-right lg:ml-auto md:ml-0 ml-auto leading-none text-sm py-1">
+              <i class="px-2 fa-regular fa-user"></i>${participants}
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 `;
+
 
   main.innerHTML += query;
 }
