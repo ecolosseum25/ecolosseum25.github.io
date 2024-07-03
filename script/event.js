@@ -40,21 +40,17 @@ function addCard(name, eligibility, description, banner, participants, url) {
   main.appendChild(card);
 
   // Event listener for mouseover to show description and registration link
-  const descriptionElement = card.querySelector(".description");
-  const registerElement = card.querySelector(".register");
-
   card.addEventListener("mouseover", function () {
-    descriptionElement.style.display = "block";
-    registerElement.style.display = "flex";
+    card.querySelector(".description").style.display = "block";
+    card.querySelector(".register").style.display = "flex";
   });
 
   // Event listener for mouseout to hide description and registration link
   card.addEventListener("mouseout", function () {
-    descriptionElement.style.display = "none";
-    registerElement.style.display = "none";
+    card.querySelector(".description").style.display = "none";
+    card.querySelector(".register").style.display = "none";
   });
 }
-
 
 const events = [
  {
