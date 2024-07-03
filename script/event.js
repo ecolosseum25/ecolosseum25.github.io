@@ -10,9 +10,9 @@ function addCard(name, eligibility, description, banner, participants, url) {
         GRADES: ${eligibility.join(" - ")}
       </h2>
       <h1 class="title-font text-lg font-medium text-gray-300 mb-3">${name}</h1>
-      <p class="leading-relaxed mb-3 text-gray-400 description" style="display: none;">${description}</p>
-      <div class="flex items-center flex-wrap register" style="display: none;">
-        <a class="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0" href="${url}" target="_blank">
+      <p class="leading-relaxed mb-3 text-gray-400 description" style=">${description}</p>
+      <div class="flex items-center flex-wrap register">
+        <a class="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0" href="${url}" target="_blank" style="display: none;">
           Register Now
           <svg
             class="w-4 h-4 ml-2"
@@ -175,7 +175,7 @@ events.forEach((event) => {
 main.addEventListener("mouseenter", function (event) {
   const card = event.target.closest(".card");
   if (card) {
-    card.querySelector(".description").classList.add("show");
+    card.querySelector(".description").style.display = "block";
     card.querySelector(".register a").style.display = "inline-flex";
   }
 });
@@ -183,7 +183,7 @@ main.addEventListener("mouseenter", function (event) {
 main.addEventListener("mouseleave", function (event) {
   const card = event.target.closest(".card");
   if (card) {
-    card.querySelector(".description").classList.remove("show");
+    card.querySelector(".description").style.display = "none";
     card.querySelector(".register a").style.display = "none";
   }
 });
