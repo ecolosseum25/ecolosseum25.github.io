@@ -48,7 +48,7 @@ function addCard(name, eligibility, description, banner, participants, url) {
       <i class="px-2 fa-regular fa-user"></i>${participants}
       </span>
     </div>
-    </div>
+  </div>
   </div>
 </div>
 </div>
