@@ -5,15 +5,15 @@ function addCard(name, eligibility, description, banner, participants, url) {
   card.classList.add("p-4", "md:w-1/3", "card", "overflow-hidden");
 
   card.innerHTML = `
-    <div class="card-inner border-2 border-white border-opacity-60 rounded-lg">
+    <div class="card h-full border-2 border-white border-opacity-60 rounded-lg overflow-hidden">
       <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="${banner}" alt="banner" />
       <div class="p-6">
-          <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-            GRADES: ${eligibility.join(" - ")}
-          </h2>
-          <h1 class="title-font text-lg font-medium text-gray-300 mb-3">${name}</h1>
-          <p class="leading-relaxed mb-3 text-gray-400 description">${description}</p>
-        <div class="flex items-center justify-between register">
+        <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+          GRADES: ${eligibility.join(" - ")}
+        </h2>
+        <h1 class="title-font text-lg font-medium text-gray-300 mb-3">${name}</h1>
+        <p class="leading-relaxed mb-3 text-gray-400 description" style="display: none;">${description}</p>
+        <div class="flex items-center justify-between register" style="display: none;">
           <a class="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0" href="${url}" target="_blank">
             Register Now
             <svg
