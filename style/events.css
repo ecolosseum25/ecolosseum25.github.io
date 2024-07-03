@@ -79,11 +79,12 @@ a.tab:hover {
   outline: none;
   border: none;
   box-shadow: 0.2rem 0.2rem 0.5rem #202020;
-  transition: transform 0.3s ease-out; /* Added transition for smooth scaling */
+  transition: transform 0.3s ease-out;
 }
 
 .card:hover {
-  transform: scale(1.05); /* Scale the hovered card */
+  transform: scale(1.05); 
+  box-shadow: 0 0 0.5rem #953df8;
 }
 
 #count {
@@ -94,11 +95,6 @@ a.tab:hover {
   position: relative;
   z-index: 1000 !important;
   user-select: none !important;
-}
-
-.background {
-  z-index: 5 !important;
-  background: transparent !important;
 }
 
 .description, register { display: none;}
