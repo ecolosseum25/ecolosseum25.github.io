@@ -215,7 +215,7 @@ events.forEach((event) => {
     event.url
   );
 });
-// Change event listeners to use mouseenter and mouseleave
+// Event delegation on .main for mouseenter and mouseleave
 main.addEventListener("mouseenter", function(event) {
   const card = event.target.closest(".card");
   if (card) {
