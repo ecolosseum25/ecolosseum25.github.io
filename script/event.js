@@ -231,4 +231,3 @@ main.addEventListener("mouseleave", function(event) {
     card.querySelector(".register").classList.remove("show");
   }
 });
-
