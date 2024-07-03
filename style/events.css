@@ -71,17 +71,11 @@ a.tab:hover {
   outline: none;
   border: none;
   box-shadow: 0.2rem 0.2rem 0.5rem #202020;
+  display: none;
 }
 
 .card:hover {
   box-shadow: 0 0 0.5rem #953df8;
-}
-.coolcard {
-  display:none;
-}
-
-.coolcard:hover {
-  display:block;
 }
 #count {
   color: rgb(141,60,221);
