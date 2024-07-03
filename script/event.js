@@ -172,20 +172,19 @@ events.forEach((event) => {
     event.url
   );
 });
-
 // Event delegation on .main for mouseenter and mouseleave
 main.addEventListener("mouseenter", function (event) {
   const card = event.target.closest(".card");
   if (card) {
-    card.querySelector(".description").classList.add("show");
-    card.querySelector(".register").classList.add("show");
+    card.querySelector(".description").style.display = "block";
+    card.querySelector(".register").style.display = "block";
   }
 });
 
 main.addEventListener("mouseleave", function (event) {
   const card = event.target.closest(".card");
   if (card) {
-    card.querySelector(".description").classList.remove("show");
-    card.querySelector(".register").classList.remove("show");
+    card.querySelector(".description").style.display = "none";
+    card.querySelector(".register").style.display = "none";
   }
 });
