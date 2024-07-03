@@ -208,6 +208,10 @@ const events = [
 events.forEach((event) => {
   addCard(
     event.name,
-    event.banner
+    event.eligibility,
+    event.description,
+    event.banner,
+    event.participants,
+    event.url
   );
 });
