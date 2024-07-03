@@ -217,6 +217,14 @@ events.forEach((event) => {
 });
 
 document.getElementsByClassName("card")[0].addEventListener("mouseover", mouseOver)
+document.getElementsByClassName("card")[0].addEventListener("mouseout", mouseOut)
+
 function mouseOver() {
   document.getElementById("description").style.display = "block";
+  document.getElementById("register").style.display = "block";
+}
+
+function mouseOut() {
+  document.getElementById("description").style.display = "none";
+  document.getElementById("register").style.display = "none";
 }
