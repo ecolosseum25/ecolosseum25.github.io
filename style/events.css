@@ -76,7 +76,13 @@ a.tab:hover {
 .card:hover {
   box-shadow: 0 0 0.5rem #953df8;
 }
+.coolcard {
+  display:none;
+}
 
+.coolcard:hover {
+  display:block;
+}
 #count {
   color: rgb(141,60,221);
   font-size: 7vw;
