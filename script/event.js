@@ -2,19 +2,21 @@ const main = document.getElementsByClassName("main")[0];
 
 function addCard(name, eligibility, description, banner, participants, url) {
   const card = document.createElement("div");
-  card.classList.add("p-4", "md:w-1/3");
+  card.classList.add("p-4", "md:w-1/3", "card", "overflow-hidden");
 
   card.innerHTML = `
-    <div class="card h-full border-2 border-white border-opacity-60 rounded-lg overflow-hidden">
+    <div class="card-inner border-2 border-white border-opacity-60 rounded-lg">
       <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="${banner}" alt="banner" />
-      <div class="p-6">
-        <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-          GRADES: ${eligibility.join(" - ")}
-        </h2>
-        <h1 class="title-font text-lg font-medium text-gray-300 mb-3">${name}</h1>
-        <p class="leading-relaxed mb-3 text-gray-400 description" style="display: none;">${description}</p>
-        <div class="flex items-center flex-wrap register" style="display: none;">
-          <a class="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0" href="${url}" target="_blank">
+      <div class="p-6 flex flex-col justify-between">
+        <div>
+          <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+            GRADES: ${eligibility.join(" - ")}
+          </h2>
+          <h1 class="title-font text-lg font-medium text-gray-300 mb-3">${name}</h1>
+          <p class="leading-relaxed mb-3 text-gray-400 description">${description}</p>
+        </div>
+        <div class="flex items-center justify-between">
+          <a class="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0 register" href="${url}" target="_blank">
             Register Now
             <svg
               class="w-4 h-4 ml-2"
@@ -39,16 +41,18 @@ function addCard(name, eligibility, description, banner, participants, url) {
 
   main.appendChild(card);
 
-  // Event listener for mouseover to show description and registration link
-  card.addEventListener("mouseover", function () {
-    card.querySelector(".description").style.display = "block";
-    card.querySelector(".register").style.display = "flex";
+  // Event listener for hovering over the card
+  card.addEventListener("mouseenter", function () {
+    card.classList.add("hover:scale-105"); // Apply Tailwind CSS's responsive hover class
+    card.querySelector(".description").classList.add("block"); // Show description
+    card.querySelector(".register").classList.add("block"); // Show registration link
   });
 
-  // Event listener for mouseout to hide description and registration link
-  card.addEventListener("mouseout", function () {
-    card.querySelector(".description").style.display = "none";
-    card.querySelector(".register").style.display = "none";
+  // Event listener for moving the mouse out of the card
+  card.addEventListener("mouseleave", function () {
+    card.classList.remove("hover:scale-105"); // Remove scaling effect
+    card.querySelector(".description").classList.remove("block"); // Hide description
+    card.querySelector(".register").classList.remove("block"); // Hide registration link
   });
 }
 
