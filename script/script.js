@@ -38,7 +38,7 @@ let flick = function() {
 
 }
 
-var countDownDate = new Date("July 03, 2024 11:32:00").getTime();
+var countDownDate = new Date("July 03, 2024 11:34:00").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
