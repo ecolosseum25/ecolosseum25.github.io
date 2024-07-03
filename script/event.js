@@ -21,9 +21,7 @@ function addCard(name, eligibility, description, banner, participants, url) {
     <h1 class="title-font text-lg font-medium text-gray-300 mb-3">
       ${name}
     </h1>
-    <table class="Socool">
-    <tbody>
-    <p class="leading-relaxed mb-3 text-gray-400">
+    <p class="leading-relaxed mb-3 text-gray-400" style="display: none;">
       ${description}
     </p>
     <div class="flex items-center flex-wrap">
@@ -49,8 +47,6 @@ function addCard(name, eligibility, description, banner, participants, url) {
       <i class="px-2 fa-regular fa-user"></i>${participants}
       </span>
     </div>
-    </table>
-    </tbody>
   </div>
 </div>
 </div>
