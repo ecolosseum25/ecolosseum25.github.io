@@ -100,8 +100,3 @@ a.tab:hover {
   z-index: 5 !important;
   background: transparent !important;
 }
-
-.description, .register {
-  display: none; /* Ensure these are initially hidden */
-}
-
