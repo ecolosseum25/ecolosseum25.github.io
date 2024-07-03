@@ -215,24 +215,20 @@ events.forEach((event) => {
     event.url
   );
 });
-// Use event delegation to handle hover events on .card elements
 main.addEventListener("mouseover", function(event) {
-  if (event.target.closest(".card")) {
-    const card = event.target.closest(".card");
-
-    // Show description and register section for the hovered card
+  const card = event.target.closest(".card");
+  if (card) {
     card.querySelector(".description").style.display = "block";
     card.querySelector(".register").style.display = "flex";
   }
 });
 
 main.addEventListener("mouseout", function(event) {
-  if (event.target.closest(".card")) {
-    const card = event.target.closest(".card");
-
-    // Hide description and register section for the hovered card
+  const card = event.target.closest(".card");
+  if (card) {
     card.querySelector(".description").style.display = "none";
     card.querySelector(".register").style.display = "none";
   }
 });
+
 
