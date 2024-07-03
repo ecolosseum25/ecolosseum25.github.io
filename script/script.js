@@ -58,7 +58,7 @@ var x = setInterval(function () {
   if (distance < 0) {
   clearInterval(x);
   document.getElementById("count").style.display= "none";
-  document.getElementById("debug").style.display= "inline-block";
+  document.getElementsByClassName("debug").style.display= "block";
   }
 }, 1000);
 
