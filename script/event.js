@@ -216,7 +216,8 @@ events.forEach((event) => {
   );
 });
 
-document.getElementsByClassName("card").addEventListener("mouseover", mouseOver)
+const card1 = document.getElementsByClassName("card")
+card1.forEach(card1.addEventListener("mouseover", mouseOver))
 document.getElementsByClassName("card").addEventListener("mouseout", mouseOut)
 
 function mouseOver() {
