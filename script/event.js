@@ -21,10 +21,10 @@ function addCard(name, eligibility, description, banner, participants, url) {
     <h1 class="title-font text-lg font-medium text-gray-300 mb-3">
       ${name}
     </h1>
-    <p class="leading-relaxed mb-3 text-gray-400" style="display: none;">
+    <p class="leading-relaxed mb-3 text-gray-400" style="display: none" id="description">
       ${description}
     </p>
-    <div class="flex items-center flex-wrap">
+    <div class="flex items-center flex-wrap" style="display: none" id="register">
       <a
         class="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0"
         >Register Now
