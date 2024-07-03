@@ -218,7 +218,7 @@ events.forEach((event) => {
 
 const card1 = document.getElementsByClassName("card")
 for(let i = 0; i < card1.length; i++) {
-document.getElementsByClassName("card").addEventListener("mouseover", mouseOver)
+card1[i].addEventListener("mouseover", mouseOver)
 
 }
 
