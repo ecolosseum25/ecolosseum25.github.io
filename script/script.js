@@ -38,7 +38,7 @@ let flick = function() {
 
 }
 
-var countDownDate = new Date("July 03, 2024 10:45:00").getTime();
+var countDownDate = new Date("July 03, 2024 11:32:00").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
@@ -58,7 +58,7 @@ var x = setInterval(function () {
   if (distance < 0) {
   clearInterval(x);
   document.getElementById("count").style.display= "none";
-  document.getElementById("debug").style.display= "block";
+  document.getElementById("debug").style.display= "inline-block";
   }
 }, 1000);
 
