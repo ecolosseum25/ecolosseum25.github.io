@@ -5,7 +5,7 @@ function addCard(name, eligibility, description, banner, participants, url) {
   carder.classList.add("p-4", "md:w-1/3", "card", "overflow-hidden");
 
   carder.innerHTML = `
-    <div class="card-inner border-2 border-white border-opacity-60 rounded-lg">
+    <div class="card-inner border-2 border-white border-opacity-60 rounded-lg hover:scale-102">
       <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="${banner}" alt="banner" />
       <div class="p-6">
           <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -39,18 +39,14 @@ function addCard(name, eligibility, description, banner, participants, url) {
 
   main.appendChild(carder);
 
-  // Event listener for hovering over the card
   carder.addEventListener("mouseenter", function () {
-    carder.classList.add("hover:scale-105"); // Apply Tailwind CSS's responsive hover class
-    carder.querySelector(".description").classList.add("block"); // Show description
-    carder.querySelector(".register").classList.add("block"); // Show registration link
+    carder.querySelector(".description").classList.add("block");
+    carder.querySelector(".register").classList.add("block");
   });
 
-  // Event listener for moving the mouse out of the card
   carder.addEventListener("mouseleave", function () {
-    carder.classList.remove("hover:scale-105"); // Remove scaling effect
-    carder.querySelector(".description").classList.remove("block"); // Hide description
-    carder.querySelector(".register").classList.remove("block"); // Hide registration link
+    carder.querySelector(".description").classList.remove("block");
+    carder.querySelector(".register").classList.remove("block");
   });
 }
 
