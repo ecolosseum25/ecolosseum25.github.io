@@ -98,23 +98,6 @@ a.tab:hover {
   box-shadow: 0 0 0.5rem #953df8; /* Optional: Add a different box shadow on hover */
 }
 
-.description,
-.register {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0.8);
-  opacity: 0;
-  transition: transform 0.3s ease, opacity 0.3s ease; /* Transition for both transform and opacity */
-  display: none;
-}
-
-.card-inner:hover .description,
-.card-inner:hover .register {
-  transform: translate(-50%, -50%) scale(1); /* Scale up description and register */
-  opacity: 1; /* Fade in description and register */
-}
-
 
 #count {
   color: rgb(141,60,221);
@@ -131,4 +114,4 @@ a.tab:hover {
   background: transparent !important;
 }
 
-.description, register { }
+.description, register { display: none; }
