@@ -129,7 +129,7 @@ const events = [
     description: "Innovating solutions for any community problem using microcontroller and AI tool",
     banner: "https://www.electronicaembajadores.com/datos/fotos/articulos/grandes/lc/lca1/lca1k81.jpg",
     participants: 2,
-    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUNU1FTTlQTUNDMkRRVjgwM0tGRjQ1VVNQMS4u"
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUOVpCTzAyNkhGQktPRUI3N1ZCM0Q4Vk9CNy4uu"
   },
   {
     name: "ELEV8PITCH",
