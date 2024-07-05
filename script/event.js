@@ -153,7 +153,7 @@ const events = [
     description: "Students test their knowledge and problem-solving skills with a series of intense technology-related questions, aiming to prove their mastery in a competitive setting.",
     banner: "https://miro.medium.com/v2/resize:fit:3720/1*_PtTP7XVXZxPStTVMmvKRg.jpeg",
     participants: 1,
-    url: "https://forms.gle/HUWwtThzGS5XoxhB6"
+    url: "https://forms.office.com/r/AuYx57CHnW"
   },
   {
     name: "Playoffs",
