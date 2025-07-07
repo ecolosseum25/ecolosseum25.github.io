@@ -42,12 +42,12 @@ var countDownDate = new Date("August 7, 2025 09:00").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
-  var distance = countDownDate - now;
+  var d = countDownDate - now;
 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  var days = Math.floor(d / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((d % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((d % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((d % (1000 * 60)) / 1000);
 
   function span(el) {
     return `<span style='font-size: 6vw !important; background: transparent !important;'>${el} </span>`
@@ -55,7 +55,7 @@ var x = setInterval(function () {
 
   document.getElementById("count").innerHTML = days + span("d") + hours + span("h") + minutes + span("m") + seconds + span("s");
 
-  if (distance < 0) {
+  if (d < 0) {
   clearInterval(x);
   document.getElementById("count").style.display= "none";
   document.getElementsByClassName("debug")[0].style.display = "block"
