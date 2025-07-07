@@ -1,4 +1,4 @@
-if (window.location.href == "https://ecolosseum24.github.io/invite") { window.location.href = "canva.com/design/DAGFdoKOpWE/mWIB6SMaMepD6CBHYwTmrg/view?utm_content=DAGFdoKOpWE&utm_campaign=designshare&utm_medium=link&utm_source=editor" };
+if (window.location.href == "https://ecolosseum25.github.io/invite") { window.location.href = "canva.com/design/DAGFdoKOpWE/mWIB6SMaMepD6CBHYwTmrg/view?utm_content=DAGFdoKOpWE&utm_campaign=designshare&utm_medium=link&utm_source=editor" };
 
 var typed = new Typed("#typing", {
   strings: ["AGI", "Innovation", "Learning"],
@@ -38,7 +38,7 @@ let flick = function() {
 
 }
 
-var countDownDate = new Date("August 07, 2025 09:00:00").getTime();
+var countDownDate = new Date("August 7, 2025 9:00").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
