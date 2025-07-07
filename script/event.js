@@ -14,7 +14,7 @@ function addCard(name, eligibility, description, banner, participants, url) {
           <h1 class="title-font text-lg font-medium text-gray-300 mb-3">${name}</h1>
           <p class="leading-relaxed mb-3 text-gray-400 description">${description}</p>
         <div class="flex items-center justify-between register">
-          <a class="text-cyan-500 inline-flex items-center md:mb-2 lg:mb-0" href="${url}" target="_blank">
+          <a class="text-blue-500 inline-flex items-center md:mb-2 lg:mb-0" href="${url}" target="_blank">
             Register Now
             <svg
               class="w-4 h-4 ml-2"
