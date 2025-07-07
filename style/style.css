@@ -68,9 +68,9 @@ a.tab:hover {
   transition: all 0.3s ease;
 }
 #count {
-  color: rgb(37, 126, 156);
+  color: rgb(49, 140, 214);
   font-size: 10vw;
-  text-shadow: 0 0 1rem #7800ff, 0 0 4rem rgb(153,99,214);
+  text-shadow: 0 0 1rem #37A4AF, 0 0 4rem rgb(153,99,214);
   background-color: transparent;
   position: relative;
   z-index: 10 !important;
