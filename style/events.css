@@ -22,11 +22,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #8d3cdd;
+  background-color: #37A4AF;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background-color: #c492f5;
+  background-color: #24bac9;
 }
 
 .navbar.scroll {
@@ -52,14 +52,14 @@ a.tab:hover {
 }
 
 .marine {
-  background-color: #a568ea;
+  background-color: #5bc3e3;
   border-radius: 0.7rem;
   transition: 0.2s ease;
   color: #000 !important;
 }
 
 .marine:hover {
-  background-color: #7e2add;
+  background-color: #27acd9;
   box-shadow: 0 0 2rem #94f5f5;
   color: #fff !important;
 }
@@ -90,19 +90,19 @@ a.tab:hover {
   border: none;
   box-shadow: 0.2rem 0.2rem 0.5rem #202020;
   transition: transform 0.3s ease-out;
-  position: relative; /* Ensure child absolute positioning is relative to this */
+  position: relative;
 }
 
 .card-inner:hover {
-  transform: scale(1.05); /* Scale up the card */
-  box-shadow: 0 0 0.5rem #953df8; /* Optional: Add a different box shadow on hover */
+  transform: scale(1.05);
+  box-shadow: 0 0 0.5rem #1caac7;
 }
 
 
 #count {
   color: rgb(141,60,221);
   font-size: 7vw;
-  text-shadow: 0 0 1rem #7800ff, 0 0 4rem rgb(153,99,214);
+  text-shadow: 0 0 1rem #2bb8e3, 0 0 4rem rgb(153,99,214);
   background-color: transparent;
   position: relative;
   z-index: 1000 !important;
