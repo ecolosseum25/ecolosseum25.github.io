@@ -59,6 +59,7 @@ var x = setInterval(function () {
   clearInterval(x);
   document.getElementById("count").style.display= "none";
   document.getElementsByClassName("debug")[0].style.display = "block"
+  console.log("Less")
   }
 }, 1000);
 
