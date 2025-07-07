@@ -79,7 +79,7 @@ a.tab:hover {
 
 #sub {
   font-size: 1.5rem;
-  color: rgb(141,60,221);
+  color: rgb(65, 138, 186);
   background-color: transparent;
   user-select: none;
 }
@@ -110,32 +110,32 @@ a.tab:hover {
 }
 
 .events-but1 {
-  border: 0.2rem solid #6732fa;
+  border: 0.2rem solid #37A4AF;
   border-radius: 0.7rem;
   transition: 0.2s ease;
 }
 
 .events-but2 {
-  border: 0.2rem solid #4e5cee;
+  border: 0.2rem solid #3d9ca6;
   border-radius: 0.7rem;
   transition: 0.2s ease;
 }
 
 .events-but1:hover {
-  box-shadow: 0 0 1rem 0 #9963d6;
+  box-shadow: 0 0 1rem 0 #497ea3;
 }
 .events-but2:hover {
-  box-shadow: 0 0 1rem 0 #6874f0;
+  box-shadow: 0 0 1rem 0 #3f7fab;
 }
 
 .marine {
-  background-color: #a568ea;
+  background-color: #4d8ca1;
   border-radius: 0.7rem;
   transition: 0.2s ease;
   color: #000 !important;
 }
 .marine:hover {
-  background-color: #7e2add;
+  background-color: #5a98bf;
   box-shadow: 0 0 2rem #c69df5;
   color: #fff !important;
 }
