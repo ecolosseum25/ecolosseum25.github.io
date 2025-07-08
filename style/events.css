@@ -102,7 +102,7 @@ a.tab:hover {
 #count {
   color: rgb(39, 145, 163);
   font-size: 7vw;
-  text-shadow: 0 0 1rem #2bb8e3, 0 0 4rem rgb(153,99,214);
+  text-shadow: 0 0 1rem #37A4AF, 0 0 4rem rgb(50,151,153);
   background-color: transparent;
   position: relative;
   z-index: 1000 !important;
