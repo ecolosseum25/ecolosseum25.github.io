@@ -103,7 +103,7 @@ const events = [
     name: "PIXELPALLETE",
     eligibility: [3, 4],
     description: "A visual journey that inspires futuristic thinking and creativity by portraying how regular digital care—like secure passwords, updates, and mindful browsing—keeps our digital world healthy, resilient, and safe from cyber threats.",
-    banner: "https://static.vecteezy.com/system/resources/previews/021/564/218/non_2x/paint-brush-in-pixel-art-style-vector.jpg",
+    banner: "https://pics.craiyon.com/2023-06-11/14e83a7e2958467ca0a7ccd4318f86fe.webp",
     participants: 2,
     url: "https://forms.cloud.microsoft/r/T8jyvmTq8R"
   },
