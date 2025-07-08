@@ -72,7 +72,7 @@ const events = [
     eligibility: [6, 8],
     description: "Competitors develop games on any SDG",
     banner: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frockymountevents.com%2Fwp-content%2Fuploads%2F2019%2F11%2FPerson-playing-an-arcade-game.jpg&f=1&nofb=1&ipt=8b1500372364ff77de787dc2b43555a66c9ead59c5ec12b13cb07cff4eb15330&ipo=images",
-    participants: 3,
+    participants: "Solo or 2-3",
     url: "https://forms.cloud.microsoft/r/dqt2eH1zDb"
   },
   {
@@ -93,7 +93,7 @@ const events = [
   },
   {
     name: "TERRAFORGED3D",
-    eligibility: [9, 10],
+    eligibility: [8, 10],
     description: " Students will design packaging for a consumer product that is not only aesthetically pleasing but also sustainable and functional. The packaging could be reusable, biodegradable, or help reduce carbon footprints",
     banner: "https://cdn.dribbble.com/users/4823084/screenshots/18863071/media/78f0367c4d388ee5e37524cee27cf1ee.png?compress=1&resize=400x300",
     participants: 2,
@@ -103,7 +103,7 @@ const events = [
     name: "PIXELPALLETE",
     eligibility: [3, 4],
     description: "A visual journey that inspires futuristic thinking and creativity by portraying how regular digital care—like secure passwords, updates, and mindful browsing—keeps our digital world healthy, resilient, and safe from cyber threats.",
-    banner: "https://i.ytimg.com/vi/l7r4EdSGrbk/maxresdefault.jpg",
+    banner: "https://play-lh.googleusercontent.com/jsw4mZAm2X645me2_j7TlLUBN2xR1qyeDkYiJovjsA_rc6jI5jGG2l_pQvC3owESkMB5=w240-h480-rw",
     participants: 2,
     url: "https://forms.cloud.microsoft/r/T8jyvmTq8R"
   },
@@ -128,7 +128,7 @@ const events = [
     eligibility: [9, 12],
     description: "Students engage their intellect in making a game coded solely in Python.",
     banner: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd36tnp772eyphs.cloudfront.net%2Fblogs%2F1%2F2018%2F08%2FEscape-room.jpg&f=1&nofb=1&ipt=c7750d7e9aa0efa5aa1e358aa6d50dd57e402b1a0db1a6a07fc7477e91f0b6c1&ipo=images",
-    participants: 3,
+    participants: "Solo or 2-3",
     url: "https://forms.cloud.microsoft/r/ZuFmCtfnfE"
   },
   {
@@ -141,10 +141,10 @@ const events = [
   },
     {
     name: "ROADSHOW",
-    eligibility: [9, 12],
+    eligibility: [6, 10],
     description: "An exciting group act challenge blending drama, props, and creativity to spark change on the theme “Click for Change”!",
     banner: "https://images.squarespace-cdn.com/content/v1/5b398fb2f793925040070b55/1569641447663-TJBR28Y4GYAYFI1WIITL/What%2Bis%2BDrama%2BTherapy.jpg?format=1500w",
-    participants: "5",
+    participants: "8-12",
     url: "https://forms.cloud.microsoft/r/k1YRCfnhWA"
   },
   {
