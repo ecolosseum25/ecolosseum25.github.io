@@ -147,6 +147,22 @@ const events = [
     participants: "5",
     url: "https://forms.cloud.microsoft/r/k1YRCfnhWA"
   },
+    {
+    name: "ROADSHOW",
+    eligibility: [9, 12],
+    description: "An exciting group act challenge blending drama, props, and creativity to spark change on the theme “Click for Change”!",
+    banner: "https://images.squarespace-cdn.com/content/v1/5b398fb2f793925040070b55/1569641447663-TJBR28Y4GYAYFI1WIITL/What%2Bis%2BDrama%2BTherapy.jpg?format=1500w",
+    participants: "5",
+    url: "https://forms.cloud.microsoft/r/k1YRCfnhWA"
+  },
+  {
+    name: "ECOVERSE",
+    eligibility: [6, 8],
+    description: "Create, code, and inspire! Teams use Scratch & AI tools to design SDG-themed games and share their ideas in a 3-minute video.",
+    banner: "https://techcrunch.com/wp-content/uploads/2019/01/ProjectEditor.png",
+    participants: "2",
+    url: "https://forms.cloud.microsoft/r/xaEAcXN6aP"
+  },
   {
     name: "CYBER GROOVE",
     eligibility: [8, 12],
