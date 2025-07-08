@@ -132,14 +132,6 @@ const events = [
     url: "https://forms.cloud.microsoft/r/ZuFmCtfnfE"
   },
   {
-    name: "TECHTRIVIA",
-    eligibility: [9, 12],
-    description: "Students test their knowledge and problem-solving skills with a series of intense technology-related questions, aiming to prove their mastery in a competitive setting.",
-    banner: "https://miro.medium.com/v2/resize:fit:3720/1*_PtTP7XVXZxPStTVMmvKRg.jpeg",
-    participants: 1,
-    url: "https://forms.office.com/r/AuYx57CHnW"
-  },
-  {
     name: "Playoffs",
     eligibility: [9, 12],
     description: "Show off your flow of ideas via your moves and let the world recognise your talent",
