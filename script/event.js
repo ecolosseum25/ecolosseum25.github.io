@@ -65,7 +65,7 @@ const events = [
     description: "Unleash your creativity! Join our film making competition and let your story shine.",
     banner: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlI9obEIzcjU0nDbg-r28asdztvKV5w95dSg&usqp=CAU",
     participants: 2,
-    url: "https://forms.cloud.microsoft/r/7V6AJ3KdkUu"
+    url: "https://forms.cloud.microsoft/r/7V6AJ3KdkU"
   },
   {
     name: "CODECRUSADE",
@@ -113,7 +113,7 @@ const events = [
     description: "Students will build an app using AI on topics AI in Educations or AI for Sustainability or AI for Safety And Well being.",
     banner: "https://i.imgur.com/nuXeEj9.jpg",
     participants: 2,
-    url: "https://forms.cloud.microsoft/r/VBxwx1GbKY"
+    url: "https://forms.cloud.microsoft/r/BeZvK7UwDg"
   },
   {
     name: "Perspective",
@@ -137,7 +137,7 @@ const events = [
     description: "Show off your flow of ideas via your moves and let the world recognise your talent",
     banner: "https://i.ytimg.com/vi/Zfsg3oiPXGc/maxresdefault.jpg",
     participants: "5",
-    url: "https://forms.cloud.microsoft/r/k1YRCfnhWA"
+    url: "https://forms.cloud.microsoft/r/yuNNhZCDuv"
   },
     {
     name: "ROADSHOW",
@@ -145,7 +145,7 @@ const events = [
     description: "An exciting group act challenge blending drama, props, and creativity to spark change on the theme “Click for Change”!",
     banner: "https://images.squarespace-cdn.com/content/v1/5b398fb2f793925040070b55/1569641447663-TJBR28Y4GYAYFI1WIITL/What%2Bis%2BDrama%2BTherapy.jpg?format=1500w",
     participants: "8-12",
-    url: "https://forms.cloud.microsoft/r/k1YRCfnhWA"
+    url: "https://forms.cloud.microsoft/r/C7eV80zy5F"
   },
   {
     name: "ECOVERSE",
