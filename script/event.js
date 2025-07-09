@@ -54,7 +54,7 @@ const events = [
  {
     name: "TECHPARADE",
     eligibility: [2, 3],
-    description : "Hello" 
+    description : 
     participants: 1,
     url: "https://forms.cloud.microsoft/r/qTwh7UqFuJ"
   },
