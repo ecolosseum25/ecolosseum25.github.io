@@ -54,14 +54,14 @@ const events = [
  {
     name: "TECHPARADE",
     eligibility: [2, 3],
-    description : 
+    description : ""
     participants: 1,
     url: "https://forms.cloud.microsoft/r/qTwh7UqFuJ"
   },
   {
     name: "INFOEXPRESS",
     eligibility: [5, 6],
-    description :__ 
+    description : ""
     banner: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlI9obEIzcjU0nDbg-r28asdztvKV5w95dSg&usqp=CAU",
     participants: 2,
     url: "https://forms.cloud.microsoft/r/7V6AJ3KdkU"
@@ -69,7 +69,7 @@ const events = [
   {
     name: "CODECRUSADE",
     eligibility: [6, 8],
-    description : . 
+    description : ""
     banner: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frockymountevents.com%2Fwp-content%2Fuploads%2F2019%2F11%2FPerson-playing-an-arcade-game.jpg&f=1&nofb=1&ipt=8b1500372364ff77de787dc2b43555a66c9ead59c5ec12b13cb07cff4eb15330&ipo=images",
     participants: "Solo or 2-3",
     url: "https://forms.cloud.microsoft/r/dqt2eH1zDb"
@@ -77,7 +77,7 @@ const events = [
   {
     name: "BOT-BRAWL",
     eligibility: [8, 10],
-    description :__ 
+    description : ""
     banner: "https://t3.ftcdn.net/jpg/01/80/97/92/360_F_180979216_dsMX0jqo0MrflzwSs86rQuIrxVHbbPW5.jpg",
     participants: "3",
     url: "https://forms.cloud.microsoft/r/eE98udsSBh"
@@ -85,7 +85,7 @@ const events = [
   {
     name: "TECHTIDE",
     eligibility: [8, 9],
-    description :__ 
+    description :""
     banner: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkC8WAQAfGvX5rep_llJ8K8KnaeZ1yYpaIOw&s",
     participants: 4,
     url: "https://forms.cloud.microsoft/r/ZnXikJYfu5"
@@ -93,7 +93,7 @@ const events = [
   {
     name: "TERRAFORGED3D",
     eligibility: [8, 10],
-    description :__ 
+    description : ""
     banner: "https://cdn.dribbble.com/users/4823084/screenshots/18863071/media/78f0367c4d388ee5e37524cee27cf1ee.png?compress=1&resize=400x300",
     participants: 2,
     url: "https://forms.cloud.microsoft/r/bZcnSdWxgg"
@@ -101,7 +101,7 @@ const events = [
   {
     name: "PIXELPALLETE",
     eligibility: [3, 4],
-    description :__ 
+    description :""
     banner: "https://pics.craiyon.com/2023-06-11/14e83a7e2958467ca0a7ccd4318f86fe.webp",
     participants: 2,
     url: "https://forms.cloud.microsoft/r/T8jyvmTq8R"
@@ -109,7 +109,7 @@ const events = [
   {
     name: "CLICK AND CREATE",
     eligibility: [9, 12],
-    description :__ 
+    description : "" 
     banner: "https://i.imgur.com/nuXeEj9.jpg",
     participants: 2,
     url: "https://forms.cloud.microsoft/r/BeZvK7UwDg"
@@ -117,7 +117,7 @@ const events = [
   {
     name: "Perspective",
     eligibility: [9, 12],
-    description :__ 
+    description : ""
     banner: "https://www.electronicaembajadores.com/datos/fotos/articulos/grandes/lc/lca1/lca1k81.jpg",
     participants: 2,
     url: "https://forms.cloud.microsoft/r/AwUcs0M21U"
@@ -125,7 +125,7 @@ const events = [
   {
     name: "CODE & CONQUER",
     eligibility: [9, 12],
-    description :__ 
+    description : ""
     banner: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd36tnp772eyphs.cloudfront.net%2Fblogs%2F1%2F2018%2F08%2FEscape-room.jpg&f=1&nofb=1&ipt=c7750d7e9aa0efa5aa1e358aa6d50dd57e402b1a0db1a6a07fc7477e91f0b6c1&ipo=images",
     participants: "Solo or 2-3",
     url: "https://forms.cloud.microsoft/r/ZuFmCtfnfE"
@@ -133,7 +133,7 @@ const events = [
   {
     name: "Playoffs",
     eligibility: [9, 12],
-    description :__ 
+    description : "" 
     banner: "https://i.ytimg.com/vi/Zfsg3oiPXGc/maxresdefault.jpg",
     participants: "5",
     url: "https://forms.cloud.microsoft/r/yuNNhZCDuv"
@@ -141,7 +141,7 @@ const events = [
     {
     name: "ROADSHOW",
     eligibility: [6, 10],
-    description :__ 
+    description : ""
     banner: "https://images.squarespace-cdn.com/content/v1/5b398fb2f793925040070b55/1569641447663-TJBR28Y4GYAYFI1WIITL/What%2Bis%2BDrama%2BTherapy.jpg?format=1500w",
     participants: "8-12",
     url: "https://forms.cloud.microsoft/r/C7eV80zy5F"
@@ -149,7 +149,7 @@ const events = [
   {
     name: "ECOVERSE",
     eligibility: [6, 8],
-    description :__ 
+    description :"" 
     banner: "https://techcrunch.com/wp-content/uploads/2019/01/ProjectEditor.png",
     participants: "2",
     url: "https://forms.cloud.microsoft/r/xaEAcXN6aP"
@@ -157,11 +157,11 @@ const events = [
   {
     name: "CYBER GROOVE",
     eligibility: [8, 12],
-    description :__ 
+    description : "" 
     banner: "https://www.noblemotiondance.com/wp-content/uploads/2022/01/NobleMotion-Dance-MAN-OVERBOARD-Photographer-Lynn-Lane-WEB-4-600x400.jpg",
     participants: "8-12",
     url: "https://forms.cloud.microsoft/r/2Un2Hu5VYB"
-  }
+  },
 ];
 
 events.forEach((event) => {
