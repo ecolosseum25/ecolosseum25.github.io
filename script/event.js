@@ -54,7 +54,7 @@ const events = [
  {
     name: "TECHPARADE",
     eligibility: [2, 3],
-    description : "",
+    description : "A vibrant showcase where students transform e-waste into futuristic wearable tech, creatively demonstrating real-world applications and components to champion sustainability and innovation.",
     participants: 1,
     url: "https://forms.cloud.microsoft/r/qTwh7UqFuJ",
   },
