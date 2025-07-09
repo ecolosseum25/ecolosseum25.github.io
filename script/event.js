@@ -111,7 +111,7 @@ const events = [
     name: "CLICK AND CREATE",
     eligibility: [9, 12],
     description : "An AI app challenge where students design no-code apps tackling real-world issues, showcasing creativity and practical AI use." ,
-    banner: "https://i.imgur.com/nuXeEj9.jpg",
+    banner: "https://file.aiquickdraw.com/imgcompressed/img/compressed_fef06de4c2a418399a44fc7cda826aeb.webp",
     participants: 2,
     url: "https://forms.cloud.microsoft/r/BeZvK7UwDg",
   },
