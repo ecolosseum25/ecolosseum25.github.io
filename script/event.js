@@ -69,7 +69,7 @@ const events = [
   {
     name: "CODECRUSADE",
     eligibility: [6, 8],
-    description :__ 
+    description : . 
     banner: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frockymountevents.com%2Fwp-content%2Fuploads%2F2019%2F11%2FPerson-playing-an-arcade-game.jpg&f=1&nofb=1&ipt=8b1500372364ff77de787dc2b43555a66c9ead59c5ec12b13cb07cff4eb15330&ipo=images",
     participants: "Solo or 2-3",
     url: "https://forms.cloud.microsoft/r/dqt2eH1zDb"
